@@ -1,0 +1,62 @@
+/*Cinzel*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Outfit*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-subheading: "Montserrat", sans-serif;
+  --font--generalText: "Montserrat", sans-serif;
+}
+
+.font-heading {
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  /*font-size: 3.75rem; Tailwind: 6xl*/
+}
+
+.font-subheading {
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  /*font-size: 2.25rem /*Tailwind: 4xl*/
+}
+
+.font-shopHeading{
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.font-shopSubHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.font-shopCategories {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.font-extralight {
+  font-family: "Montserrat", sans-serif;
+  text-transform:inherit;
+  text-align: justify;
+  /*font-size: 1.25rem; Tailwind: xl*/
+}
