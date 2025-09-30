@@ -37,6 +37,7 @@ export default function About() {
                         className="absolute -right-20 w-75 h-85 sm:w-70 sm:h-80 md:w-80 md:h-90 object-cover rounded-bl-[45%] shadow-lg"
                         src="https://res.cloudinary.com/dnkzcvqxc/image/upload/v1753997383/andrew-about-2_a3mj7l.jpg"
                         alt="andrew tattooing"
+                        fill
                     />
                 </motion.div>
 
